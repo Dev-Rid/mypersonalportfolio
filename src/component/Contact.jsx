@@ -39,19 +39,19 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      content: "abiola.ridwan@email.com",
-      link: "mailto:abiola.ridwan@email.com"
+      content: "ridwanabiola2000@email.com",
+      link: "mailto:ridwanabiola2000@email.com"
     },
     {
       icon: Phone,
       title: "Phone",
-      content: "+234 (0) 123 456 789",
-      link: "tel:+2341234567890"
+      content: "+234 808 5241 939",
+      link: "tel:+2348085241939"
     },
     {
       icon: MapPin,
       title: "Location",
-      content: "Lagos, Nigeria",
+      content: "Ibadan, Nigeria",
       link: "#"
     }
   ];
