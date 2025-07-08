@@ -22,17 +22,42 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
-    // Simulate form submission
+
+    try {
+      const response = await fetch("https://portfolio-backend-nttm.onrender.com/api/form/contact", {
+        method: "POST",
+        headers: {
+          "Content-type": "application/json"
+        },
+        body: JSON.stringify(formData)
+      })
+      if (response.ok) {
+        setSubmitStatus("success")
+        setFormData({ name: "", email: "", subject: "", message: ""})
+      }
+
+    } catch (error) {
+      console.error("Error submitting form", error)
+      setSubmitStatus("error")
+    }
+
+    setIsSubmitting(false)
+
     setTimeout(() => {
-      setIsSubmitting(false);
-      setSubmitStatus('success');
-      setFormData({ name: '', email: '', subject: '', message: '' });
+      setSubmitStatus("idle")
+    }, 3000);
+    // Simulate form submission
+    // setTimeout(() => {
+    //   setIsSubmitting(false);
+    //   setSubmitStatus('success');
+    //   setFormData({ name: '', email: '', subject: '', message: '' });
       
-      setTimeout(() => {
-        setSubmitStatus('idle');
-      }, 3000);
-    }, 1500);
+    //   setTimeout(() => {
+    //     setSubmitStatus('idle');
+    //   }, 3000);
+    //   })
+
+    // }, 1500);
   };
 
   const contactInfo = [
