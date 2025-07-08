@@ -64,14 +64,14 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      content: "ridwanabiola2000@email.com",
-      link: "mailto:ridwanabiola2000@email.com"
+      content: "ridwanabiola2000@gmail.com",
+      link: "mailto:ridwanabiola2000@gmail.com"
     },
     {
       icon: Phone,
       title: "Phone",
-      content: "+234 808 5241 939",
-      link: "tel:+2348085241939"
+      content: "+234 706 5966 546",
+      link: "tel:+2347065906546"
     },
     {
       icon: MapPin,
@@ -85,19 +85,19 @@ const Contact = () => {
     {
       icon: Github,
       name: "GitHub",
-      url: "https://github.com/abiolariwan",
+      url: "https://github.com/Dev-Rid",
       color: "hover:text-gray-900"
     },
     {
       icon: Linkedin,
       name: "LinkedIn",
-      url: "https://linkedin.com/in/abiolariwan",
+      url: "https://www.linkedin.com/in/abiola-ridwan-9a60a2230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       color: "hover:text-blue-600"
     },
     {
       icon: Twitter,
       name: "Twitter",
-      url: "https://twitter.com/abiolariwan",
+      url: "https://x.com/Ajibade11306450",
       color: "hover:text-blue-400"
     }
   ];

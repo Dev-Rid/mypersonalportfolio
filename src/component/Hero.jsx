@@ -58,7 +58,7 @@ const Hero = () => {
 
             <div className="flex justify-center space-x-6">
               <a
-                href="https://github.com/abiolariwan"
+                href="https://github.com/Dev-Rid"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-white rounded-full text-gray-600 hover:text-blue-600 hover:bg-blue-50 transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-xl"
@@ -66,7 +66,7 @@ const Hero = () => {
                 <Github className="h-6 w-6" />
               </a>
               <a
-                href="https://linkedin.com/in/abiolariwan"
+                href="https://www.linkedin.com/in/abiola-ridwan-9a60a2230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-white rounded-full text-gray-600 hover:text-blue-600 hover:bg-blue-50 transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-xl"

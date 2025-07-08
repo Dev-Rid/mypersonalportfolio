@@ -48,15 +48,15 @@ const Projects = () => {
       liveUrl: "#",
       featured: false
     },
-    {
-      title: "Chat Application",
-      description: "Real-time messaging application with group chats, file sharing, emoji reactions, and end-to-end encryption.",
-      image: "https://images.pexels.com/photos/1068523/pexels-photo-1068523.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["React", "Socket.io", "Node.js", "MongoDB", "Encryption"],
-      githubUrl: "#",
-      liveUrl: "#",
-      featured: false
-    }
+    // {
+    //   title: "Chat Application",
+    //   description: "Real-time messaging application with group chats, file sharing, emoji reactions, and end-to-end encryption.",
+    //   image: "https://images.pexels.com/photos/1068523/pexels-photo-1068523.jpeg?auto=compress&cs=tinysrgb&w=800",
+    //   technologies: ["React", "Socket.io", "Node.js", "MongoDB", "Encryption"],
+    //   githubUrl: "#",
+    //   liveUrl: "#",
+    //   featured: false
+    // }
   ];
 
   const featuredProjects = projects.filter(project => project.featured);
