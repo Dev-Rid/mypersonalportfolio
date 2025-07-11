@@ -50,10 +50,13 @@ const Hero = () => {
               >
                 View My Work
               </button>
-              <button className="flex items-center space-x-2 bg-white hover:bg-gray-50 text-gray-800 px-8 py-4 rounded-full font-semibold border-2 border-gray-200 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
-                <Download className="h-5 w-5" />
-                <span>Download CV</span>
-              </button>
+              <a href="../ABIOLA-RESUME.pdf" download>
+                <button className="flex items-center space-x-2 bg-white hover:bg-gray-50 text-gray-800 px-8 py-4 rounded-full font-semibold border-2 border-gray-200 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+                  <Download className="h-5 w-5" />
+                  <span>Download CV</span>
+                </button>
+              </a>
+             
             </div>
 
             <div className="flex justify-center space-x-6">
