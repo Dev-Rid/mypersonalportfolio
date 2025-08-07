@@ -44,8 +44,8 @@ const Projects = () => {
       description: "Content management system with markdown support, user authentication, commenting system, and SEO optimization features.",
       image: "https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?auto=compress&cs=tinysrgb&w=800",
       technologies: ["MERN Stack", "Markdown", "SEO", "Admin Panel"],
-      githubUrl: "#",
-      liveUrl: "#",
+      githubUrl: "https://github.com/Dev-Rid/myblogsite",
+      liveUrl: "https://myblogsite-dczl.onrender.com/",
       featured: false
     },
     // {
