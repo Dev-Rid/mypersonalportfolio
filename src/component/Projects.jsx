@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink, Github, ArrowRight } from 'lucide-react';
+import { ExternalLink, Github, ArrowRight, Link } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
@@ -8,8 +8,8 @@ const Projects = () => {
       description: "Full-stack e-commerce solution built with MERN stack featuring user authentication, payment integration, admin dashboard, and real-time inventory management.",
       image: "https://images.pexels.com/photos/6214476/pexels-photo-6214476.jpeg?auto=compress&cs=tinysrgb&w=800",
       technologies: ["React", "Node.js", "MongoDB", "Express", "Stripe", "JWT"],
-      githubUrl: "#",
-      liveUrl: "#",
+      githubUrl: "https://github.com/Dev-Rid/biola-ecommerce.git",
+      liveUrl: "https://myecommerce-store.netlify.app/",
       featured: true
     },
     {
@@ -80,6 +80,7 @@ const Projects = () => {
             <div key={index} className={`grid lg:grid-cols-2 gap-12 items-center ${index % 2 === 1 ? 'lg:grid-flow-dense' : ''}`}>
               <div className={`${index % 2 === 1 ? 'lg:col-start-2' : ''}`}>
                 <div className="relative group overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
+                     
                   <img 
                     src={project.image} 
                     alt={project.title}
@@ -104,6 +105,7 @@ const Projects = () => {
                       </a>
                     </div>
                   </div>
+                  
                 </div>
               </div>
               
