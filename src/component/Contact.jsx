@@ -70,7 +70,7 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      content: "+234 706 5960 546",
+      content: "+234 706 5906 546",
       link: "tel:+2347065906546"
     },
     {
