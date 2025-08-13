@@ -35,8 +35,8 @@ const Projects = () => {
       description: "Modern weather application with location-based forecasts, interactive maps, and personalized weather alerts using external APIs.",
       image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800",
       technologies: ["React", "Weather API", "Geolocation", "CSS Animations"],
-      githubUrl: "#",
-      liveUrl: "#",
+      githubUrl: "https://github.com/Dev-Rid/skyCast.git",
+      liveUrl: "https://comfy-gaufre-ad5714.netlify.app/",
       featured: false
     },
     {
